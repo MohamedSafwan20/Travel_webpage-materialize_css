@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Import Google Icon Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="Assets/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="CSS/index.css">
+
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="col s12">
+
+    <!-- navbar in header -->
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="#small-nav" class="sidenav-trigger material-icons" data-trigger="sidenav">menu</a>
+        <a href="#" class="brand-logo">Travelist</a>
+        <ul class="right hide-on-med-and-down nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#top-places" class="tooltipped" data-tooltip="scroll to Top places">Destinations</a>
+          </li>
+          <li><a href="#top-packages" class="tooltipped" data-tooltip="scroll to Top packages">Packages</a></li>
+          <li><a href="#about" class="tooltipped" data-tooltip="scroll to About">About</a></li>
+        </ul>
+        <a href="#" class="right hide-on-large-only"><i class="material-icons">search</i></a>
+        <div class="sidenav grey" id="small-nav">
+          <ul class="center">
+            <li><a href="">Home</a></li>
+            <li><a href="">Destinations</a></li>
+            <li><a href="">Packages</a></li>
+            <li><a href="">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <div class="col s6">
+      <h1 class="center-align">TRAVELIST</h1>
+    </div>
+    <div class="col s6 center-align">
+      <button class="btn transparent white modal-trigger waves-effect" data-target="tour-modal">TAKE TOUR</button>
+
+      <!-- modal starting -->
+      <div class="modal black-text" id="tour-modal">
+        <div class="modal-content">
+          <div class="modal-title">
+            <h4>We are currently working on it!</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit nisi placeat ex suscipit? Beatae nesciunt,
+            doloribus, ullam laborum soluta unde commodi animi placeat saepe praesentium aliquam consequuntur pariatur
+            ab odit.</p>
+          <button class="btn-floating btn-small red modal-close">
+            <i class="material-icons right">close</i>
+          </button>
+        </div>
+      </div>
+      <!-- modal end -->
+
+    </div>
+  </header>
+
+  <!-- Top places -->
+  <section id="top-places" class="scrollspy">
+
+    <div class="row">
+      <div class="container">
+        <div class="col s12">
+          <h1 class="center-align grey-text scrollspy">Top Places to visit...</h1>
+        </div>
+        <!-- iceland section -->
+        <div class="col s12 m6 l4">
+          <img src="Assets/iceland-2438618.jpg" alt="place-1" class="responsive-img material-box">
+        </div>
+        <div class="col s12 m4 l6 offset-l2 offset-m2">
+          <h4 style="margin-top: 0;">Iceland</h4>
+          <p>Iceland, a Nordic island nation, is defined by its dramatic landscape with
+            volcanoes,
+            geysers, hot springs
+            and lava fields. Massive glaciers are protected in Vatnajökull and Snæfellsjökull national parks.</p>
+        </div>
+      </div>
+    </div>
+    <!-- end of iceland section -->
+
+    <!-- Matterhorn section -->
+    <div class="row">
+      <div class="container">
+        <div class="col s12 m4 l4 push-l9">
+          <img src="Assets/matterhorn-switz.jpg" alt="place-2" class="responsive-img material-box">
+        </div>
+        <div class="col s12 m6 l6 offset-l2 offset-m2 pull-l5">
+          <h4 style="margin-top: 0;">Matterhorn-switz</h4>
+          <p>The Matterhorn is a mountain of the Alps, straddling the main watershed and
+            border between Switzerland and Italy. It is a large. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Reprehenderit, numquam!</p>
+        </div>
+      </div>
+    </div>
+    <!-- end of Matterhorn section -->
+
+    <!-- Paris section -->
+    <div class="row">
+      <div class="container">
+        <div class="col s12 m6 l4">
+          <img src="Assets/paris-1836415.jpg" alt="place-3" class="responsive-img material-box">
+        </div>
+        <div class="col s12 m4 l6 offset-l2 offset-m2">
+          <h4 style="margin-top: 0;">Paris</h4>
+          <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and
+            culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.</p>
+        </div>
+      </div>
+    </div>
+    <!-- end of Paris section -->
+
+  </section>
+
+  <hr>
+
+  <!-- Top packages -->
+  <section id="top-packages" class="scrollspy">
+
+    <!-- parallax start -->
+    <div class="row">
+      <div class="col s12 parallax-div">
+        <h1 class="white-text center-align">Top Tour Packages</h1>
+      </div>
+    </div>
+    <!-- parallax end -->
+
+    <!-- cards start -->
+    <div class="container">
+      <div class="row">
+        <div class="col l4 m6 s12">
+
+          <!-- yellow card start -->
+          <div class="card yellow lighten-2 z-depth-2">
+            <div class="card-content">
+              <div class="card-title">
+                <h3 class="center"><sup>4</sup>/<sub>7</sub><br>
+                  <i class="material-icons">work</i>
+                </h3>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repellat quas veritatis temporibus quos
+                quisquam exercitationem ratione blanditiis perferendis minima. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Atque, obcaecati accusamus! Animi, suscipit.</p>
+            </div>
+
+            <div class="card-action center">
+              <button class="btn yellow waves-effect black-text activator">More Info...</button>
+            </div>
+
+            <!-- card-reveal start -->
+            <div class="card-reveal">
+              <div class="card-title">
+                <img src="Assets/maldives.jpg" alt="" class="responsive-img">
+                <div class="center">
+                  <i class="material-icons">close</i>
+                </div>
+              </div>
+              <div class="card-content">
+                <h4 class="center">Maldives Tours</h4>
+              </div>
+            </div>
+            <!-- card-reveal end -->
+
+          </div>
+          <!-- yellow card end -->
+
+        </div>
+        <div class="col l4 m6 s12">
+
+          <!-- green card start -->
+          <div class="card green lighten-2 z-depth-2">
+            <div class="card-content">
+              <div class="card-title">
+                <h3 class="center">
+                  <sup>10</sup>/<sub>14</sub><br>
+                  <i class="material-icons">work</i>
+                </h3>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repellat quas veritatis temporibus quos
+                quisquam exercitationem ratione blanditiis perferendis minima. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Atque, obcaecati accusamus! Animi, suscipit.</p>
+            </div>
+            <div class="card-action center">
+              <button class="btn green waves-effect black-text activator">More Info...</button>
+            </div>
+
+            <!-- card-reveal start -->
+            <div class="card-reveal">
+              <div class="card-title">
+                <img src="Assets/hamburg-3846525.jpg" alt="reveal-2" class="responsive-img">
+                <div class="center">
+                  <i class="material-icons">close</i>
+                </div>
+              </div>
+              <div class="card-content">
+                <h4 class="center">Hamburg Tours</h4>
+              </div>
+            </div>
+            <!-- card-reveal end -->
+
+          </div>
+          <!-- green card end -->
+
+        </div>
+        <div class="col l4 m6 s12">
+
+          <!-- blue card start -->
+          <div class="card blue lighten-2 z-depth-2">
+            <div class="card-content">
+              <div class="card-title">
+                <h3 class="center">
+                  <sup>20</sup>/<sub>30</sub><br>
+                  <i class="material-icons">work</i>
+                </h3>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repellat quas veritatis temporibus quos
+                quisquam exercitationem ratione blanditiis perferendis minima. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Atque, obcaecati accusamus! Animi, suscipit.</p>
+            </div>
+            <div class="card-action center">
+              <button class="btn blue waves-effect black-text activator">More Info...</button>
+            </div>
+
+            <!-- card-reveal start -->
+            <div class="card-reveal">
+              <div class="card-title">
+                <img src="Assets/italy-4093227_1920.jpg" alt="reveal-3" class="responsive-img">
+                <div class="center">
+                  <i class="material-icons">close</i>
+                </div>
+              </div>
+              <div class="card-content">
+                <h4 class="center">Italy Tours</h4>
+              </div>
+            </div>
+            <!-- card-reveal end -->
+
+          </div>
+          <!-- blue card end -->
+
+        </div>
+      </div>
+    </div>
+    <!-- cards end -->
+
+  </section>
+  <hr>
+
+  <!-- Footer(about) -->
+  <footer class="grey white-text scrollspy" id="about">
+    <div class="row">
+      <div class="container">
+        <div class="col s12 m6">
+          <h3>Contact</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum accusantium aliquam minus et libero eum
+            similique sint qui nesciunt id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aspernatur
+            nam, quibusdam itaque ex enim quam ipsum tempore obcaecati nesciunt?</p>
+        </div>
+        <div class="col s12 m6">
+          <h3>About</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, aspernatur rerum. Debitis recusandae
+            voluptate accusamus doloremque illum fugit! Voluptatem atque eaque, commodi ab aperiam et nihil odio quasi
+            harum id?</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="Assets/jquery/jquery-3.5.1.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="Assets/materialize/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(() => {
+      $(".sidenav").sidenav();
+      $(".modal").modal();
+      $(".material-box").materialbox();
+      $(".tooltipped").tooltip();
+      $(".scrollspy").scrollSpy();
+    })
+  </script>
+</body>
+
+</html>
